@@ -7,7 +7,7 @@ export default class Navbar extends Component {
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <Link className="navbar-brand" to="/">
-            NewsHive
+            <span className="text-warning">News</span>Hive
           </Link>
           <button
             className="navbar-toggler"
